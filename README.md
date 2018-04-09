@@ -12,7 +12,7 @@ To test the load banacer operation ===
 
 # Install
 ```
-git clone https://github.com/onporat/similarwebpetest
+git clone https://github.com/onporat/SimilarWebPETest
 cd similarwebpetest
 npm install
 ```

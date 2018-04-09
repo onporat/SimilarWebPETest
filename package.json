@@ -1,5 +1,5 @@
 {
-  "name": "similarwebpetest",
+  "name": "SimilarWebPETest",
   "version": "1.0.0",
   "description": "Production Engineering - Home Assignment",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onporat/similarwebpetest.git"
+    "url": "git+https://github.com/onporat/SimilarWebPETest.git"
   },
   "author": "Oded Porat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/onporat/similarwebpetest/issues"
+    "url": "https://github.com/onporat/SimilarWebPETest/issues"
   },
-  "homepage": "https://github.com/onporat/similarwebpetest#readme",
+  "homepage": "https://github.com/onporat/SimilarWebPETest#readme",
   "dependencies": {
     "await-sleep": "0.0.1",
     "axios": "^0.18.0",
