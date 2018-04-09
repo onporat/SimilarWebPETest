@@ -1,0 +1,38 @@
+{
+  "name": "similarwebpetest",
+  "version": "1.0.0",
+  "description": "Production Engineering - Home Assignment",
+  "scripts": {
+    "start": "node src/load-balancer.js",
+    "start:mock": "node src/mock-upstream-server.js",
+    "start:mocks": "scripts/start-mock-servers.sh",
+    "kill:mocks": "scripts/kill-all-mocks.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onporat/similarwebpetest.git"
+  },
+  "author": "Oded Porat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onporat/similarwebpetest/issues"
+  },
+  "homepage": "https://github.com/onporat/similarwebpetest#readme",
+  "dependencies": {
+    "await-sleep": "0.0.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
