@@ -7,9 +7,6 @@ For incomming `get` request issue `get` request to upstream server, cycle over t
 For incomming `post` requests, issue `post` requests to all the upstream servers, use `Promise.race` to return the first one that returned. If request to upsream server failed keep retrying until
 successful, using an exponential backoff interval. 
 
-To test the load banacer operation === 
-
-
 # Install
 ```
 git clone https://github.com/onporat/SimilarWebPETest
